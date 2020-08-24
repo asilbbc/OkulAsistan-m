@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gray"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/girisYap"
+        android:layout_width="353dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="373dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/button_background"
+        android:onClick="girisYap"
+        android:text="Giris Yap" />
+
+    <Button
+        android:id="@+id/kayitOl"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginBottom="373dp"
+        android:layout_marginTop="550dp"
+        android:onClick="kayitOl"
+        android:textAllCaps="false"
+        android:background="@null"
+        android:textColor="#FFFF"
+        android:text="Kaydol." />
+
+    <Button
+        android:text="Şifreni mi unuttun?"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:textAllCaps="false"
+        android:id="@+id/yeniSifreButton"
+        android:background="@null"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="230dp"
+        android:textColor="#FFFF"
+        android:layout_marginBottom="8dp"
+        android:onClick="sifremiUnuttum"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="123dp"
+        android:layout_marginStart="30dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="49dp"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:hint="Parola"
+        android:inputType="textPassword" />
+    <TextView
+        android:id="@+id/kayitTextEdit"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="110dp"
+        android:text="Hesabın yok mu?"
+        />
+
+    <TextView
+        android:id="@+id/font2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="60dp"
+        android:text="Okul Asistanım"
+        android:textSize="23dp"
+        />
+
+
+</RelativeLayout>

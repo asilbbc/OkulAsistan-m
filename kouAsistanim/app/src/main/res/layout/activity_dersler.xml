@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightgray"
+    tools:context=".dersler">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyleView"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="160dp" />
+
+    <ImageView
+        android:id="@+id/kepViewDersler"
+        android:layout_width="132dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/kep"
+        />
+
+    <ImageView
+        android:id="@+id/geriViewDersler"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="1dp"
+        android:onClick="geriGitDersler"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/geri3" />
+
+    <EditText
+        android:id="@+id/ogrencininMailiDersler"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/ogrencininBolumuDersler"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        />
+
+
+</RelativeLayout>

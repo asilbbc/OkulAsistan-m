@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "701534438818",
+    "firebase_url": "https://kouasistanim.firebaseio.com",
+    "project_id": "kouasistanim",
+    "storage_bucket": "kouasistanim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701534438818:android:3896ae27179b6e143a9efb",
+        "android_client_info": {
+          "package_name": "com.example.kouasistanim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701534438818-3tqfoap0mpnthof76hpj1intuj9dc3bo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkoYNVWFAASPJDKzjs-OFAn5FW3puLqjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701534438818-3tqfoap0mpnthof76hpj1intuj9dc3bo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightgray"
+    tools:context=".dersIcerik">
+
+    <ImageView
+        android:id="@+id/geriViewDersİcerik"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="1dp"
+        android:onClick="geriGitDersIcerik"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/geri3" />
+
+    <ImageView
+        android:id="@+id/kepViewDersEkle"
+        android:layout_width="82dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginEnd="26dp"
+        app:srcCompat="@drawable/kep"
+        />
+
+    <TextView
+        android:id="@+id/ogrencininMailiDersIcerik"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/ogrencininBolumuDersIcerik"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/icerikAdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="70dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Dersin Adi"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/icerikGunu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Dersin Gunu"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/icerikSaati"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Dersin Saati"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/katılım"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="70dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Derse Katıldınız Mı ?"
+            android:textSize="17sp" />
+
+    <RelativeLayout
+     android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/yoklamaTakibiEvet"
+        android:layout_width="84dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_darkbackground"
+        android:onClick="yoklamaTakipEvet"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Evet"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/yoklamaTakibiHayir"
+        android:layout_width="84dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_darkbackground"
+        android:onClick="yoklamaTakipHayir"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Hayır"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp" />
+
+</RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+

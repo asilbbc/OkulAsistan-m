@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightgray"
+    tools:context=".yoklamaTakibi">
+
+    <ImageView
+        android:id="@+id/kepViewYoklamaTakibi"
+        android:layout_width="82dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/kep"
+        />
+
+    <ImageView
+        android:id="@+id/geriViewYoklamaTakibi"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="1dp"
+        android:onClick="geriGitYoklamaTakibi"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/geri3" />
+
+    <TextView
+        android:id="@+id/ogrencininMailiYoklamaTakibi"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/ogrencininBolumuYoklamaTakibi"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/dersAdiYT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Dersin Adi"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/dersGunuYT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Dersin Gunu"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/dersSaatiYT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Dersin Saati"
+            android:textSize="17sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/derseGit"
+                android:layout_width="104dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_darkbackground"
+                android:onClick="derseGit"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Derse Git"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="21sp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

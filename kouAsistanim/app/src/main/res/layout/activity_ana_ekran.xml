@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightgray"
+    tools:context=".anaEkran">
+
+    <TextView
+        android:id="@+id/font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="60dp"
+        android:text="HOŞ GELDİN"
+        android:textSize="23dp"
+        />
+
+    <Button
+        android:id="@+id/dersGoruntulemeButonu"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="40dp"
+        android:text="Derslerimi Görüntüle"
+        android:onClick="dersleriGoruntule"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:background="@drawable/button_darkbackground"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:id="@+id/dersEklemeButonu"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="220dp"
+        android:text="Ders Ekle"
+        android:onClick="dersleriEkle"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:background="@drawable/button_darkbackground"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:id="@+id/okulDuyurularınaGit"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="40dp"
+        android:text="Okul Duyuruları"
+        android:onClick="okulDuyurularınaGit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:background="@drawable/button_darkbackground"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:id="@+id/bolumDuyurularınaGit"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="220dp"
+        android:text="Bölüm Duyuruları"
+        android:onClick="bolumDuyurularınaGit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:background="@drawable/button_darkbackground"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:id="@+id/yemekListesineGit"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="40dp"
+        android:text="Yemek Listesi"
+        android:onClick="yemekListesineGit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:background="@drawable/button_darkbackground"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/yoklamaTakibineGit"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="220dp"
+        android:text="Yoklama Takibi"
+        android:onClick="yoklamaTakibineGit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:background="@drawable/button_darkbackground"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:id="@+id/notHesaplamaButonu"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginStart="25dp"
+        android:text="NotHesapla"
+        android:onClick="notHesapla"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:background="@drawable/button_darkbackground"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+    <Button
+        android:id="@+id/ayarlarButonu"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="25dp"
+        android:text="Ayarlar"
+        android:onClick="ayarlar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:background="@drawable/button_darkbackground"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewAnaEkran"
+        android:layout_width="132dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="26dp"
+        app:srcCompat="@drawable/kep" />
+
+
+    <TextView
+        android:id="@+id/ogrencininMailiAnaEkran"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/ogrencininBolumuAnaEkran"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        />
+
+</RelativeLayout>

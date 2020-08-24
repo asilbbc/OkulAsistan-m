@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bilgMuh" android:title="Bilgisayar Mühendisliği"></item>
+    <item android:id="@+id/cevreMuh" android:title="Çevre Mühendisliği"></item>
+    <item android:id="@+id/denizMuh" android:title="Deniz Ulaştırma İşletme Mühendisliği"></item>
+    <item android:id="@+id/elektrikMuh" android:title="Elektrik Elektronik Mühendisliği"></item>
+    <item android:id="@+id/endMuh" android:title="Endüstri Mühendisliği"></item>
+
+    <item android:id="@+id/insaatMuh" android:title="İnşaat Mühendisliği"></item>
+    <item android:id="@+id/jeofizikMuh" android:title="Jeofizik Mühendisliği"></item>
+    <item android:id="@+id/jeolojiMuh" android:title="Jeoloji Mühendisliği"></item>
+    <item android:id="@+id/kimyaMuh" android:title="Kimya Mühendisliği"></item>
+    <item android:id="@+id/madenMuh" android:title="Maden Mühendisliği"></item>
+
+    <item android:id="@+id/makineMuh" android:title="Makine Mühendisliği"></item>
+    <item android:id="@+id/malzemeMuh" android:title="Metalurji Ve Malzeme Mühendisliği"></item>
+</menu>

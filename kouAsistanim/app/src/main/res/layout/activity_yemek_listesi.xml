@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yemekListesi">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="410dp"
+        android:layout_height="700dp">
+
+        <WebView
+            android:id="@+id/webViewYemekListesi"
+            android:layout_width="410dp"
+            android:layout_height="700dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/kepViewYemekListesi"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginEnd="26dp"
+        app:srcCompat="@drawable/kep"
+        />
+
+    <ImageView
+        android:id="@+id/geriViewYemekListesi"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="1dp"
+        android:onClick="geriGitYemekListesi"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/geri3" />
+    <TextView
+        android:id="@+id/ogrencininMailiYemekListesi"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/ogrencininBolumuYemekListesi"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>

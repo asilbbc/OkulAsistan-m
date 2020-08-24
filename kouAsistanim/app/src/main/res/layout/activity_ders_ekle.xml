@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lightgray"
+    tools:context=".dersEkle">
+
+
+    <EditText
+        android:id="@+id/dersAkts"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="260dp"
+        android:hint="Ders Akts"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/ogrencininMailiDersEkle"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="180dp"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/dersAdi"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="320dp"
+        android:hint="Ders Adı"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/dersKaydet"
+        android:layout_width="314dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="228dp"
+        android:layout_marginTop="640dp"
+        android:onClick="dersKaydet"
+        android:text="Kaydet"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:background="@drawable/button_darkbackground"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+
+    <EditText
+        android:id="@+id/dersSaati"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginBottom="76dp"
+        android:ems="10"
+        android:hint="Ders Saati"
+        android:inputType="textPersonName" />
+    <ImageView
+        android:id="@+id/geriViewDersEkle"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="1dp"
+        android:onClick="geriGitDersEkle"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/geri3" />
+
+    <ImageView
+        android:id="@+id/kepViewDersEkle"
+        android:layout_width="132dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="26dp"
+        app:srcCompat="@drawable/kep"
+        />
+
+        <CheckBox
+            android:id="@+id/pazartesiCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="490dp"
+            android:layout_height="wrap_content"
+            android:text="Pazartesi"
+            />
+
+    <CheckBox
+        android:id="@+id/persembeCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="490dp"
+        android:layout_height="wrap_content"
+        android:text="Perşembe"
+        />
+    <CheckBox
+        android:id="@+id/saliCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="530dp"
+        android:layout_height="wrap_content"
+        android:text="Salı"
+        />
+
+    <CheckBox
+        android:id="@+id/carsambaCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="570dp"
+        android:layout_height="wrap_content"
+        android:text="Çarşamba"
+        />
+    <CheckBox
+        android:id="@+id/cumaCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="530dp"
+        android:layout_height="wrap_content"
+        android:text="Cuma"
+        />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="450dp"
+        android:text="Ders Gününü Seçiniz :"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <TextView
+        android:id="@+id/ogrencininBolumuDersEkle"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        />
+</RelativeLayout>
